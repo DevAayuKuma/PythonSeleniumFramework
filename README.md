@@ -15,7 +15,7 @@ Instructions:
 Clone or Download the Repository:
 
 Bash
-git clone https://github.com/your-username/intelligent-price-comparison.git
+git clone https://github.com/DevAayuKuma/PythonSeleniumFramework.git
 Use code with caution.
 
 Install Dependencies:
