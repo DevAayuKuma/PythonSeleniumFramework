@@ -1,83 +1,56 @@
----
+Project Description:
 
-Price Comparison of iPhone XR (64GB) - Yellow on Amazon and Flipkart
+This Python project utilizes the Page Object Model (POM) design pattern, TestNG testing framework, and Selenium WebDriver for cross-browser automation to compare iPhone XR (64GB) - Yellow prices across Amazon India and Flipkart.
 
-Welcome to the Price Comparison Automation project! This project automates the process of comparing the price of an iPhone XR (64GB) - Yellow between two of the largest e-commerce websites in India: **Amazon** and **Flipkart**. The goal is to determine which website offers the iPhone at a lower price and print the result in the console.
+Key Features:
 
-## 🚀 Project Overview
+Cross-Browser Compatibility: Supports major browsers like Chrome, Firefox, Edge, etc. (configure in testNG.xml).
+Reusable Page Objects: Encapsulates UI elements and actions for maintainability.
+Modular TestNG Tests: Clear and concise test definitions using TestNG annotations.
+Enhanced Readability: Descriptive variable and method names.
+Informative Output: Prints the final comparison result to the console.
+Improved Error Handling: Uses try-except blocks to gracefully handle potential exceptions.
+Instructions:
 
-This project demonstrates the use of **Selenium WebDriver** with **TestNG** in a **Page Object Model (POM)** framework to perform web automation. The script is written in **Java** and showcases how to:
+Clone or Download the Repository:
 
-1. Navigate to Amazon and Flipkart websites.
-2. Search for the iPhone XR (64GB) - Yellow.
-3. Extract the price of the iPhone on both websites.
-4. Compare the prices and determine the cheaper option.
-5. Display the result in the console.
+Bash
+git clone https://github.com/your-username/intelligent-price-comparison.git
+Use code with caution.
 
-## 💡 Key Features
+Install Dependencies:
 
-- **Page Object Model (POM)**: This design pattern is implemented to promote reusability, maintainability, and readability of the code.
-- **Cross-Site Comparison**: The automation script seamlessly compares prices across Amazon and Flipkart.
-- **Selenium WebDriver with TestNG**: Utilizes TestNG for test execution and reporting.
+Bash
+pip install selenium webdriver-manager testng
+Use code with caution.
 
-## 🛠️ Technologies Used
+Configure Browser Drivers (if needed):
+Download the appropriate browser driver (e.g., ChromeDriver) from https://chromedriver.chromium.org/ and place it in the project directory or a location specified in your system's PATH environment variable.
 
-- **Language**: Java
-- **Framework**: Selenium WebDriver
-- **Test Framework**: TestNG
-- **Design Pattern**: Page Object Model (POM)
+Run Tests:
 
-## 📝 Steps to Run the Project
+Bash
+pytest test_price_comparison.py
+Use code with caution.
 
-1. **Clone the Repository**: Clone this repository to your local machine using the command:
-   ```bash
-   git clone https://github.com/yourusername/price-comparison-automation.git
-   ```
+Getting Started with Page Object Model:
 
-2. **Set Up the Environment**:
-   - Ensure you have Java, Maven, and your preferred IDE (e.g., IntelliJ IDEA, Eclipse) installed.
-   - Install the necessary dependencies by running `mvn install` from the command line.
+This project demonstrates the Page Object Model (POM) for effective UI element interactions and reusability:
 
-3. **Run the Tests**:
-   - Navigate to the `src/test/java` directory.
-   - Run the TestNG test file that contains the `comparePricesTest()` method.
+Create separate classes for each web page with its elements and actions encapsulated.
+Access page objects from your test classes for a clean separation of concerns.
+Test Execution and Comparison Logic:
 
-4. **View the Result**:
-   - The test will execute and the result will be displayed in the console, showing which website offers the iPhone XR at a lower price.
+Open Amazon and Flipkart websites using WebDriver.
+Search for "iPhone XR (64GB) - Yellow" on both platforms.
+Select the matching iPhone on each website.
+Extract the iPhone's price from the product page using appropriate selectors.
+Compare the extracted prices using conditional statements.
+Print the website offering the iPhone at a lower price.
+Handle potential exceptions (e.g., product not found) using try-except blocks.
+Contribution and Improvements:
 
-## 📁 Project Structure
+Feel free to fork the repository, experiment with different POM implementations, or enhance the code for advanced test automation scenarios.
 
-```
-src
-├── main
-│   └── java
-│       └── pages
-│           ├── AmazonPage.java
-│           └── FlipkartPage.java
-└── test
-    └── java
-        └── tests
-            └── PriceComparisonTest.java
-```
-
-- **Pages**: Contains the page object classes for Amazon and Flipkart.
-- **Tests**: Contains the test class that compares the prices.
-
-## ⚡ Example Output
-
-```
-Amazon Price: ₹53,900
-Flipkart Price: ₹54,500
-Result: Amazon offers the iPhone XR (64GB) - Yellow at a cheaper price.
-```
-
-## 🤝 Contributing
-
-Feel free to contribute by opening a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-
-## 📧 Contact
-
-For any queries, please reach out at [aayushkumardev@gmail.com].
-
----
+Disclaimer:
+This code is provided for educational purposes only.
