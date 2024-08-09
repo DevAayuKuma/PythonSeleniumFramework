@@ -1,5 +1,3 @@
-Here's a `README.md` file for your assignment on GitHub that is both informative and attention-grabbing:
-
 ---
 
 # 📱 Price Comparison of iPhone XR (64GB) - Yellow on Amazon and Flipkart
@@ -83,6 +81,3 @@ Feel free to contribute by opening a pull request. For major changes, please ope
 For any queries, please reach out at [aayushkumardev@gmail.com].
 
 ---
-
-This `README.md` file provides all the necessary information in a concise and engaging manner. 
-It is designed to attract viewers to the repository by highlighting the project's purpose, technologies used, and steps to get started, making it easy for others to understand and contribute.
