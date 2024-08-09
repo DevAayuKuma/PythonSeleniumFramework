@@ -1,6 +1,6 @@
 ---
 
-# 📱 Price Comparison of iPhone XR (64GB) - Yellow on Amazon and Flipkart
+# Price Comparison of iPhone XR (64GB) - Yellow on Amazon and Flipkart
 
 Welcome to the Price Comparison Automation project! This project automates the process of comparing the price of an iPhone XR (64GB) - Yellow between two of the largest e-commerce websites in India: **Amazon** and **Flipkart**. The goal is to determine which website offers the iPhone at a lower price and print the result in the console.
 
